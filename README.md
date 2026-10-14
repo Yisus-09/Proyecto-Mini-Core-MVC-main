@@ -2,6 +2,8 @@
 
 Aplicación interconectada de gestión de comisiones que combina la robustez de **Django REST Framework** para exponer una API REST, con un frontend **React + Vite** que consume esos endpoints mediante Axios y ofrece una UI en modo oscuro moderna y responsiva. El stack se despliega en **Render**: el backend corre como **Web Service** (Gunicorn + Django, con migraciones automáticas y archivos estáticos recopilados) y el frontend como **Static Site** generado por Vite, con una regla global de rewrite (/* → /index.html) para permitir el enrutado del SPA.
 
+---
+
 ## Descripción del Proyecto
 
 Este proyecto contempla un Sistema de Comisiones completo que permite a los usuarios desarrollar las funciones:
@@ -309,6 +311,5 @@ Este proyecto fue desarrollado por:
 ## Licencia
 
 Este proyecto está licenciado bajo la [MIT License](https://choosealicense.com/licenses/mit/). Puedes usar, modificar y distribuir este proyecto libremente.
-#   P r o y e c t o - M i n i - C o r e - M V C - m a i n 
- 
+#   P r o y e c t o - M i n i - C o r e - M V C - m a i n  
  
